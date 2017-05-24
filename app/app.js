@@ -10,6 +10,12 @@ function getDescendingNumbers(start, stop)
     return result;
 }
 
+function uselessFunction(arg) {
+  var i=0;
+  return i;
+}
+
 module.exports = {
-    getDescendingNumbers: getDescendingNumbers
+    getDescendingNumbers: getDescendingNumbers,
+    uselessFunction: uselessFunction
 };
