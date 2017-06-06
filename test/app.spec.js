@@ -11,8 +11,8 @@ describe('getDescendingNumbers', function (){
 });
 
 describe('getUpscendingNumbers', function(){
-	it('should return higher number', function(){
-		expect(app.getUpscendingNumbers('a', 15)).to.eql('1 2 3 4 5 6 7 8 9 10 11 12 13 14 15');
+	it('should return string with numbers separated by spaces', function(){
+		expect(app.getUpscendingNumbers(1, 15)).to.eql('1 2 3 4 5 6 7 8 9 10 11 12 13 14 15');
 	});
 
 });

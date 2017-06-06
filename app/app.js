@@ -12,9 +12,9 @@ function getDescendingNumbers(start, stop)
 
 function getUpscedingNumbers(start,stop){
 	if (typeof start !== 'number' || typeof stop !== 'number' || start >= stop){
-		return true;
+		return false;
 	}
-	var result = start
+	var result = start;
 	for (var i = start+1; i <= stop; i++){
 		result = result + ' ' + i;
 	}
