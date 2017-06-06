@@ -8,7 +8,7 @@ describe('getDescendingNumbers', function (){
         expect(app.getDescendingNumbers(15, 1)).to.eql('15 14 13 12 11 10 9 8 7 6 5 4 3 2 1');
     });
   it('should return false with numbers separated by spaces', function ()    {
-        expect(app.getDescendingNumbers(1, 5)).to.eql(false)
+        expect(app.getDescendingNumbers(1, 5)).to.eql(false);
   });
 });
 

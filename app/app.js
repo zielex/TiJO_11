@@ -11,8 +11,7 @@ function getDescendingNumbers(start, stop)
 }
 
 function uselessFunction(arg) {
-  var i=0;
-  return i;
+  return arg;
 }
 
 module.exports = {
